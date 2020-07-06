@@ -1,0 +1,71 @@
+
+
+.App {
+    
+    padding: 2em;
+    width: 75%;
+    text-align: center;
+    background-color:	whitesmoke;
+    height: 100vh;
+    box-sizing: border-box;
+}
+
+.container  {
+  display: flex;
+  justify-content: space-around;
+  margin: 2em;
+}
+
+input[type=text] {
+  width: 80%;
+  border: 2px #aaa;
+  border-radius: 4px;
+  margin: 0 px;
+  outline: none;
+  padding: 20px;
+  box-sizing: border-box;
+  transition: .3s;
+}
+
+input[type=text]:focus {
+  border-color: dodgerblue;
+  box-shadow: 0 0 8px 0 dodgerblue;
+}
+
+.btn {
+  width: 10%;
+  background-color: #6DD5FA;
+  outline: none;
+  border: none;
+
+}
+
+.container-2 {
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem;
+  margin: auto;
+  border-bottom: 1px solid;
+}
+
+p {
+  margin: 0;
+  text-align: left;
+  padding-left: 6em;
+}
+
+.btn2 {
+  margin-right: 5em;
+  outline: none;
+  border: none;
+  background-color: whitesmoke;
+  cursor: pointer;
+}
+
+.btn2:hover {
+ 
+  background-color: teal;
+}
+.container3 {
+  width: 100%;
+}
